@@ -1,0 +1,108 @@
+body{
+    background-color:rgb(230, 230,230);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+
+.container{
+    border: none;
+    border-radius: 15px;
+    background-color:rgb(126, 222,252);
+    box-shadow: 4px 5px 6px;
+    justify-content:space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.7em;
+    font-weight: 900;
+    border-bottom: 0.5px solid white;
+    margin-bottom: 20px;
+
+
+}
+
+.addTask{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input{
+    padding: 7px;
+    border-radius: 5px;
+    
+}
+
+button:hover{
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px;
+}
+
+button{
+    background-color: rgb(244, 242, 153);
+    color: rgb(11,11,11);
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 10px;
+    align-items: self-end;
+}
+
+
+ul{
+    list-style: none;
+    padding: 15px;
+    
+}
+
+li{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 7px;
+    justify-content: space-around;
+    font-size: medium;
+    
+
+}
+
+
+#task-List{
+    width: 30%;
+}
+
+#div1{
+    border: 2px solid black;
+    margin:5px;
+    background-color:rgb(126, 222,252);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    width: 30%;
+    height: 20%;  
+    
+}  
+
+
+@media screen and (min-width: 1080px) {
+    #div1 {
+           margin-left: 15px;
+           height: 30%;
+           width:30%;
+
+     } 
+
+#button1{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+}
+  
